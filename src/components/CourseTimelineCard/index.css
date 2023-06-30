@@ -1,0 +1,92 @@
+/* Write your CSS here */
+.course-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+.course-header-container {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .course-header-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+}
+@media screen and (max-width: 768px) {
+  .icon-container {
+    align-self: center;
+  }
+}
+.course-title {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 0px;
+}
+@media screen and (max-width: 768px) {
+  .course-title {
+    font-size: 23px;
+  }
+}
+.duration {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-left: 4px;
+}
+@media screen and (max-width: 768px) {
+  .duration {
+    font-size: 16px;
+  }
+}
+.description {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 0px;
+}
+@media screen and (max-width: 768px) {
+  .description {
+    font-size: 16px;
+  }
+}
+.course-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+.course-tag-item {
+  color: #25262c;
+  background-color: #e2e8f0;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 500;
+  border-radius: 4px;
+  line-height: 1.6;
+  padding: 4px 8px;
+  margin: 0px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+}
+@media screen and (max-width: 768px) {
+  .course-tag-item {
+    font-size: 13px;
+  }
+}
